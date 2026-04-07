@@ -1,0 +1,87 @@
+# =========================
+# 🔐 Credentials & Secrets
+# =========================
+*.env
+.env
+config.json
+config.yaml
+config.yml
+credentials.py
+creds.py
+sentinelhub.config
+*.key
+*.pem
+
+# Sentinel Hub config cache (if saved locally)
+*.json
+
+# =========================
+# 🧠 Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# =========================
+# 📓 Jupyter
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# 🛰️ Geospatial Data
+# =========================
+# Raster outputs
+*.tif
+*.tiff
+
+# Vector data
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# GeoJSON (optional — include ONLY if small sample data)
+# *.geojson
+
+# NetCDF / HDF
+*.nc
+*.h5
+
+# =========================
+# 📦 Downloaded / Generated Data
+# =========================
+data/
+results/
+raw/
+
+# =========================
+# 🗂️ Logs & Temp Files
+# =========================
+*.log
+*.tmp
+*.cache
+
+# =========================
+# 🖥️ OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 📊 Plots / Figures (optional)
+# =========================
+*.png
+*.jpg
+*.jpeg
+*.pdf
